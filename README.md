@@ -23,6 +23,7 @@ This application is a React isomorphic application which "renders" and serves th
 * Caveats
     * My original app skeleton used Redux for state management, but I stripped use of Redux out as it would have been overkill for this project
     * Now, there's no state management, but upon direct load of a route, the data is made available from the server on load -- providing the benefits discussed above
+    * Probably not using the latest package versions for everything...but did not want to introduce breaking changes
 
 
 ## Additional Caveats
