@@ -6,7 +6,7 @@ To run the app locally (developed and tested with Node v12.14.0):
 $ git clone https://github.com/triniMahn/moviebrowser.git
 $ cd moviebrowser
 $ npm install
-(Before you start: add your Movie DB API key to the constants.js file)
+(Before you start: add your Movie DB API key to the /shared/constants.js file)
 $ npm start
 ```
 
