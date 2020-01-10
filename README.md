@@ -30,4 +30,5 @@ This application is a React isomorphic application which "renders" and serves th
 * Not assessed for accessibility standards whatsoever
 * Not robust in terms of error handling (i.e. no toaster msg, UI degrades somewhat gracefully) -- for failed api calls, etc.
 * CSS compilation is not working -- can't get it to work in an isomorphic env -- so there are ugly style objects in some components
+* The layout does not match the design mockups 100%, and I'm not sure what's up with the nav width on the detail page (I suspect some React + Bootstrap issue)
 
