@@ -41,13 +41,15 @@ class PopularMovies extends React.Component {
         }
 
         return (
-            <div className="container">
+            <div>
                 <Header headerTitle={headerTitle}/>
                 {list}
                 {/* TODO: hide this when this.state.curResultsPage === 500 */}
-                <div className="row" style={{marginTop:'15px', marginBottom:'15px'}}>
-                    <div className="col text-center">
-                        <button type="button" className="btn btn-outline-primary" onClick={this.getMoreMovies}>Load More</button>
+                <div className="container">
+                    <div className="row" style={{marginTop:'15px', marginBottom:'15px'}}>
+                        <div className="col text-center">
+                            <button type="button" className="btn btn-outline-primary" onClick={this.getMoreMovies}>Load More</button>
+                        </div>
                     </div>
                 </div>
             </div>
